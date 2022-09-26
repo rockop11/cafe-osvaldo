@@ -1,0 +1,39 @@
+.productListContainer {
+  width: 75%;
+  margin: 40px auto;
+}
+
+.productListTitle {
+  font-family: "Cairo Play", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.itemsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 16px;
+  margin-top: 7px;
+}
+
+@media (min-width: 768px) {
+  .productListContainer {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .productListContainer {
+    width: 40%;
+  }
+  .productListTitle {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
