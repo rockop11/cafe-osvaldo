@@ -50,7 +50,6 @@ export const MenuSection = ({ title, items }: MenuSectionProps) => {
                             ))
                         )
                     }
-                    
                 </div>
             </div>
         </div>

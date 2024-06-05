@@ -104,7 +104,10 @@ export const coffeeList: ListProps = {
 export const IcedCoffeeList: ListProps = {
     titulo: 'cafe frío',
     items: [
-        { titulo: "Iced americano | Flat white | Capu | Latte", precio: { normal: '2900' } },
+        { titulo: "Iced americano", precio: { normal: '2900' } },
+        { titulo: "Flat white", precio: { normal: '2900' } },
+        { titulo: "Capuccino", precio: { normal: '2900' } },
+        { titulo: "Latte", precio: { normal: '2900' } },
         { titulo: "Iced caramel macchiatto", precio: { normal: '3200' } },
         { titulo: "Espresso soda", precio: { normal: '3800' } },
         { titulo: "Espresso tónica", precio: { normal: '3800' } },
